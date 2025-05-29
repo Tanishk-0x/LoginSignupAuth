@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try {
-      const url = "http://localhost:5000/auth/login" ; 
+      const url = "https://login-signup-auth-ten.vercel.app/auth/login" ; 
       const res = await fetch(url, {
         method : "POST" , 
         headers : {
