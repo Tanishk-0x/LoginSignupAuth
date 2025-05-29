@@ -23,7 +23,7 @@ const Home = () => {
   const fetchProducts = async () => {
 
     try {
-      const url = "http://localhost:5000/products/" ; 
+      const url = "https://login-signup-auth-ten.vercel.app/products/" ; 
       const headers = {
         headers : {
           'Authorization' : localStorage.getItem('token') 
